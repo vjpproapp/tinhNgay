@@ -12,6 +12,6 @@ function myFunction() {
     else {
     document.getElementById("tinhNgay").innerHTML = `Từ ngày ${ngayBatDau}/10 đến ngày ${ngayKetThuc}/10 thì sẽ có 
                                                         ${ngayKetThuc - ngayBatDau + 1} ngày chứ cc gì nữa, 
-                                                        tưởng ${ngayKetThuc - ngayBatDau} ngày cái cc à đcm ( ͡° ͜ʖ ͡°)`;
+                                                        tưởng ${ngayKetThuc - ngayBatDau} ngày cái cc à đcm <span>( ͡° ͜ʖ ͡°)</span>`;
     }
 }
