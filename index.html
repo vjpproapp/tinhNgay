@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính ngày vjppro</title>
+    <style>
+        .mainTitle{
+            text-align: center;
+            font-family: Verdana, Tahoma, Geneva, Verdana, sans-serif;
+            font-size: xx-large;
+            margin-top: 50px;
+            font-weight: 300;
+        }
+        body{
+            background-color: rgb(244, 246, 249);
+        }
+        
+        input {
+            margin: 10px;
+            border: solid 2px orange;
+            border-radius: 14px;
+            width: 50px;
+            height: 30px;
+            padding: 0 10px;
+        }
+        .calc {
+            text-align: center;
+            margin-top: 30px;
+            background-color: rgb(255, 234, 204);
+            padding: 20px 20px 60px 20px;
+            border-radius: 10px;
+        }
+        label, span {
+            font-family: Tahoma;
+            text-align: left;
+        }
+        span{
+            font-size: medium;
+        }
+        button {
+            margin: 10px;
+            border: solid 2px orange;
+            border-radius: 14px;
+            background-color: aquamarine;
+            height: 40px;
+        }
+
+        #tinhNgay {
+            font-family: Tahoma;
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+        
+        input:focus{
+            background-color: rgb(157, 204, 204);
+        }
+
+    </style>
+</head>
+<div>
+    <form action="">
+        <div class="mainTitle">
+            <div id="title"> App Tính Số Ngày Tháng 10 </div>
+            <div id="subTitle" 
+                style="font-family: 'Segoe UI'; font-size: x-large;"> Chuẩn Vcl </div><br/>
+        </div>
+        <div class="calc">
+            <label for="DateStart">Mời các bro nhập ngày bắt đầu: </label><br/>
+            <span>Ngày </span><input type="number" id="DateStart" required/> <span>-  Tháng 10 </span><br/>
+            <label for="DateEnd">Nhập ngày kết thúc nhẹ cái: </label><br/>
+            <span>Ngày </span><input type="number" id="DateEnd" required/> <span>-  Tháng 10 </span><br/>
+            <button type="button" onclick="myFunction()">Tính luôn</button>
+            <div id="tinhNgay"></div>
+        </div>
+        
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
